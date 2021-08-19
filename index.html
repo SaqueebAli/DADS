@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <nav class="fixed-top">
+
+        <div class="containerl">
+
+            <div class="animate logo">
+                <i><span>D</span><span>a</span><span>D</span><span>s</span></i>
+
+            </div>
+
+        </div>
+
+
+        <button id="burger" class="burger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+
+        <ul>
+            <li>
+                <a href="http://127.0.0.1:5501/index.html#">Home</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5500/foodies.html">Order Meals</a>
+            </li>
+            <li>
+                <a href="#">Buy Groceries</a>
+            </li>
+            <li>
+                <a href="#aboutus">About Us</a>
+            </li>
+            <li>
+                <a href="#footer1">Contact Us</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modal"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+            </li>
+            <br>
+            <li>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#myModal2"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+
+
+    <div class="demo coursemeal">
+
+        <!-- APPETIZERS-->
+        <div class="coursemeal__div ">
+
+            <picture class="responsive-img">
+                <source media="(min-width: 992px)" srcset="./img/appetizer.jpg">
+                <source media="(min-width: 767px)" srcset="./img/appetier.jpg">
+                <source srcset="./img/appetizer.jpg">
+                <img src="./img/appetizer.jpg" alt="Appetizer">
+            </picture>
+
+            <div class="coursemeal-info">
+                <a href="#" class="coursemeal-info__link">Appetizer</a>
+            </div>
+        </div>
+
+
+        <!-- MAIN COURSE-->
+        <div class="coursemeal__div">
+
+            <picture class="responsive-img">
+                <source media="(min-width: 992px)" srcset="./img/main meal.jpg">
+                <source media="(min-width: 767px)" srcset="./img/main meal.jpg">
+                <source srcset="./img/main meal.jpg">
+                <img src="./img/main meal.jpg" alt="Main Course">
+            </picture>
+
+            <div class="coursemeal-info">
+                <a href="#" class="coursemeal-info__link">Meals</a>
+            </div>
+        </div>
+
+        <!-- DESSERTS-->
+        <div class="coursemeal__div">
+
+            <picture class="responsive-img">
+                <source media="(min-width: 992px)" srcset="./img/desserts.jpg">
+                <source media="(min-width: 767px)" srcset="./img/desserts.jpg">
+                <source srcset="./img/desserts.jpg">
+                <img src="./img/desserts.jpg" alt="Desserts">
+            </picture>
+
+            <div class="coursemeal-info">
+                <a href="#" class="coursemeal-info__link">Dessert</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="container">
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/cake pastry.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>cake pastry</h2>
+                <div class="size">
+                    <h3></h3>
+                    <span></span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 50</span>
+
+                </div>
+                <a href="#">order Now</a>
+                <a href="#">add to orders</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/meal.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Toor dal / Arhar dal</h2>
+                <div class="size">
+                    <h3></h3>
+                    <span></span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 110</span>
+
+                </div>
+                <a href="#">order Now</a>
+                <a href="#">add to orders</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/momo.webp">
+            </div>
+            <div class="contentBx">
+                <h2>momo</h2>
+                <div class="size">
+                    <h3></h3>
+                    <span></span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 80</span>
+
+                </div>
+                <a href="#">order Now</a>
+                <a href="#">add to orders</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/fries.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>french fries</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>1 kg</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 110</span>
+
+                </div>
+                <a href="#">order Now</a>
+                <a href="#">add to orders</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/chowmein.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Toor dal / Arhar dal</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>1 kg</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 110</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="demo coursemeal">
+
+        <!-- dry food grocery-->
+        <div class="coursemeal__div ">
+
+            <picture class="responsive-img">
+                <source media="(min-width: 992px)" srcset="./img/dry food and grocery.jpg">
+                <source media="(min-width: 767px)" srcset="./img/dry food and grocery.jpg">
+                <source srcset="./img/dry food and grocery.jpg">
+                <img src="./img/dry food and grocery.jpg" alt="Appetizer">
+            </picture>
+
+            <div class="coursemeal-info">
+                <a href="#" class="coursemeal-info__link">dry food grocery</a>
+            </div>
+        </div>
+
+
+        <!-- beverages and dairy products-->
+        <div class="coursemeal__div">
+
+            <picture class="responsive-img">
+                <source media="(min-width: 992px)" srcset="./img/dairy products.jpg">
+                <source media="(min-width: 767px)" srcset="./img/dairy products.jpg">
+                <source srcset="./img/dairy products.jpg">
+                <img src="./img/dairy products.jpg" alt="Main Course">
+            </picture>
+
+            <div class="coursemeal-info">
+                <a href="#" class="coursemeal-info__link">beverages and dairy products</a>
+            </div>
+        </div>
+
+        <!-- spices-->
+        <div class="coursemeal__div">
+
+            <picture class="responsive-img">
+                <source media="(min-width: 992px)" srcset="./img/spices.jpg">
+                <source media="(min-width: 767px)" srcset="./img/spices.jpg">
+                <source srcset="./img/spices.jpg">
+                <img src="./img/spices.jpg" alt="Desserts">
+            </picture>
+
+            <div class="coursemeal-info">
+                <a href="#" class="coursemeal-info__link">spices</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/tikhalal-chilli.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Everest Tikhalal</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>100 gm</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 50</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/amul-homogenised-standardised-milk.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Amul milk gold</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>1 ltr</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 140</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/daawat-basmati-rice-rozana-gold.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Daawat basmati rice</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>5 kg</span>
+
+                </div>
+                <div class="color">
+                    <h3>Price :</h3>
+                    <span>Rs 449</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/arhar-dal.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Toor dal / Arhar dal</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>1 kg</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 110</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/aashirwaad atta.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Toor dal / Arhar dal</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>1 kg</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 110</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/Gokul-Mustard-Oil.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Toor dal / Arhar dal</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>1 kg</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 110</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/potato.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Toor dal / Arhar dal</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>1 kg</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 110</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="imgBx">
+                <img src="./img/garlic.jpg">
+            </div>
+            <div class="contentBx">
+                <h2>Toor dal / Arhar dal</h2>
+                <div class="size">
+                    <h3>weight :</h3>
+                    <span>1 kg</span>
+
+                </div>
+                <div class="color">
+                    <h3>price :</h3>
+                    <span>Rs 110</span>
+
+                </div>
+                <a href="#">Buy Now</a>
+                <a href="#">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="modal fade" id="modal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content gradient-custom-3">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="staticBackdropLabel"> <strong>Create an account</strong></h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+
+                        <div class="form-outline mb-4">
+                            <input type="text " id="sname" class="form-control form-control-lg" />
+                            <label class="form-label" for="sname">Your Name</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input type="email" id="semail" class="form-control form-control-lg" />
+                            <label class="form-label" for="semail">Your Email</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input type="password " id="spassword " class="form-control form-control-lg" />
+                            <label class="form-label" for="spassword">Password</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input type="password" id="srpassword" class="form-control form-control-lg" />
+                            <label class="form-label" for="srpassword">Repeat your password</label>
+                        </div>
+
+                        <div class="form-check d-flex justify-content-center mb-5">
+                            <input class="form-check-input me-2" type="checkbox" value=" " id="cbox" />
+                            <label class="form-check-label" for="cbox">
+                                    I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
+                                </label>
+                        </div>
+
+                        <div class="d-flex justify-content-center">
+                            <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                        </div>
+
+                        <p class="text-center text-muted mt-5 mb-0">Already have an account? <a href="#" class="fw-bold text-body" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#myModal2"><u>Login here</u></a></p>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="modal fade" id="myModal2" data-bs-backdrop="static" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content gradient-custom-3">
+                <div class="modal-header">
+
+                    <h4 class="modal-title" id="staticBackdropLabel"> <strong>Welcome Back</strong></h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Enter Details</p>
+
+                    <form>
+
+                        <div class="form-outline mb-4">
+                            <input type="email" id="lemail" class="form-control form-control-lg" />
+                            <label class="form-label" for="lemail">Your Email</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input type="password" id="lpassword" class="form-control form-control-lg" />
+                            <label class="form-label" for="lpassword">Password</label>
+                        </div>
+
+                        <p class="text-center text-muted mt-5 mb-0">Don't have an account? <a href="#" data-bs-toggle="modal" data-bs-dismiss="modal" data-bs-target="#modal" class="fw-bold text-body"><u>Create Here</u></a></p>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Log
+                                in</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section id="aboutus">
+
+        <h4><strong>ABOUT US</strong></h4>
+        <div>
+            <p> We pride ourselves on the service we provide to each and every one of our clients, offering a personal service on a global scale. Customer relationships are key to a sustainable business whereby trust and transparency are at the forefront
+                of everything we do. <br> The DaDs concept proffers a practical solution to shopping and delivery constraints. We aim to build a flexible, responsive and prompt community that ensures your shopping and delivery needs are met on time.</p>
+        </div>
+        <hr>
+        <h2 class="text-center display-3">Reason to shop with us</h2>
+
+        <div class="cards text-center">
+            <div class="card12">
+                <i class="fas fa-truck-loading"></i>
+                <h5>DELIVERY OR COLLECTION</h5>
+                <p>7 days a week, at a time that best suits you</p>
+            </div>
+            <div class="card12">
+                <i class="fas fa-hand-holding-heart"></i>
+                <h5>HANDLED WITH CARE</h5>
+                <p>Great quality products and foods and packed with care</p>
+            </div>
+            <div class="card12">
+                <i class="fas fa-shopping-cart"></i>
+                <h5>FRESHNESS GUARANTEE</h5>
+                <p>We pick only the freshest items</p>
+            </div>
+            <div class="card12">
+                <i class="fas fa-thumbs-up"></i>
+                <h5>FAVOURITES</h5>
+                <p>Order your most favourites in just few seconds</p>
+            </div>
+            <div class="card12">
+                <i class="fas fa-id-card-alt"></i>
+                <h5>MEMBER-CARD POINTS</h5>
+                <p>Collect points to benefit the most</p>
+            </div>
+            <div class="card12"> <i class="fas fa-mobile-alt"></i>
+                <h5>SHOP ON MOVE</h5>
+                <p>Shop on the move just log into our site and order </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer id="footer1">
+        <div class="cards">
+            <div class="card12">
+                <div class="containerl">
+
+                    <div class="animate logo">
+                        <i><span>D</span><span>a</span><span>D</span><span>s</span></i>
+
+                    </div>
+
+                </div>
+
+                <h5>CONTACT US</h5>
+                <address>
+            
+            MAIL US AT <a class="bg-success" href="mailto:DaDs@somedomain.com">
+                <i>DaDs</i></a>
+                <br>
+            <a href="tel:+918906961518"><i class="fa fa-phone-square" aria-hidden="true"></i>+91-890-696-1518</a>
+                        
+        </address>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
